@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="DuplicatesTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-01-14T08:59:12" hostname="MATEBOOKD16" time="0.032">
+  <properties/>
+  <testcase name="testRemoveDuplicatesWithDuplicates()" classname="DuplicatesTest" time="0.027"/>
+  <testcase name="testRemoveDuplicatesEmptyList()" classname="DuplicatesTest" time="0.001"/>
+  <testcase name="testRemoveDuplicatesNoDuplicates()" classname="DuplicatesTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
