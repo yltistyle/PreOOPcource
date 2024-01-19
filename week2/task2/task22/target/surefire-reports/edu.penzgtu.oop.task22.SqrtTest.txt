@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: edu.penzgtu.oop.task22.SqrtTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in edu.penzgtu.oop.task22.SqrtTest
