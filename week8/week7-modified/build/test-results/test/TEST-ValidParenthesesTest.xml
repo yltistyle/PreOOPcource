@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ValidParenthesesTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-01-14T11:02:17" hostname="MATEBOOKD16" time="0.039">
+  <properties/>
+  <testcase name="testTimeFunction()" classname="ValidParenthesesTest" time="0.031"/>
+  <testcase name="testIsValid()" classname="ValidParenthesesTest" time="0.007"/>
+  <system-out><![CDATA[Execution time: 4547600 ns
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,41 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group = 'edu.penzgtu.Application'
+version = '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.10.0'
+    testImplementation 'org.junit.jupiter:junit-jupiter-engine:5.10.0'
+    testImplementation 'org.junit.platform:junit-platform-launcher:1.10.0'
+    implementation 'org.jfree:jfreechart:1.5.3'
+}
+
+application {
+    mainClassName = 'edu.penzgtu.Application.ValidParentheses'
+}
+
+jar {
+    manifest {
+        attributes(
+                'Main-Class': 'edu.penzgtu.Application.ValidParentheses'
+        )
+    }
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
+
+tasks.test {
+    useJUnitPlatform()
+}
+
+test {
+    finalizedBy jar
+}
